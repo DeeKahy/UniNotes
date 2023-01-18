@@ -45,6 +45,7 @@ if (x == array[i]) {
 }
 ```
 
+
 ## b) Check if the element 7000 appears in the lists List500.txt, List1000.txt, List2000.txt, List4000.txt, and List9000.txt.
 
 !!! info
