@@ -1,3 +1,5 @@
+# UniNotes
+
 Welcome to UniNotes, a resource for university students to access and learn from notes and materials.
 
 UniNotes is brought to you by DeeKahy and Mantarias, two dedicated students who understand the importance of having a reliable and comprehensive resource for studying. Our goal is to provide students with a collection of notes and materials that cover a wide range of courses and subjects, as well as to offer a platform for students to share and contribute their own notes.

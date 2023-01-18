@@ -1,6 +1,7 @@
 site_name: Workshop 2
 site_author: DeeKahy & Mantarias
 site_url: "https://uninotes.otterhosting.net"
+repo_url: "https://github.com/DeeKahy/UniNotes"
 
 
 theme:
