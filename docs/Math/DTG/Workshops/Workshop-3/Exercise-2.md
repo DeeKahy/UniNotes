@@ -21,7 +21,7 @@ By our assumtion the merge sort will return a sorted list consiting of the same 
 
 Because we cannot split it any more the merge function will be called to merge the 2 sorted subsets into a single sorted array, since merge only rearanges the elements and doesnt delete, the returned sorted list will contain the same elements as the input list L.
 
-### end
+### End
 
 By induction, the thing is true for all cases where the input list L(n) is <= 1
 
