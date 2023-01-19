@@ -16,14 +16,14 @@ graph TD
 ### induction step
 Assume that the statement is true for the case where the input list L has n elements >= 1. That is, the MergeSort function returns a sorted list containing the same elements as the input list L with n elements.
 
-Now, consider the case where the input list L has n+1 elements. The MergeSort function will recursively divide the input list L into two subset, one with n/2 elements and the other with n/2 V n/2+1 element until it can not be split anymore.
+Now, consider the case where the input list L has n+1 elements. The MergeSort function will recursively divide the input list L into two subset, one with n/2 elements and the other with "n/2 and n/2+1" if even and "(n+1)/2" if odd element until it can not be split anymore.
 By our assumtion the merge sort will return a sorted list consiting of the same elements as L. Which is the same as in our base step, 1 element goes in, the same element comes out.
 
 Because we cannot split it any more the merge function will be called to merge the 2 sorted subsets into a single sorted array, since merge only rearanges the elements and doesnt delete, the returned sorted list will contain the same elements as the input list L.
 
 ### End
 
-By induction, the thing is true for all cases where the input list L(n) is <= 1
+By induction, the statement is true for all cases where the input list L(n) is <= 1
 
 
 
