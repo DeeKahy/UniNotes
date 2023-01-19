@@ -28,6 +28,7 @@ By induction, the thing is true for all cases where the input list L(n) is <= 1
 
 
 
+
 ``` mermaid
 graph TD
     L("L = {3, 1}") --> N("n/2 | {1}");
