@@ -51,7 +51,6 @@ let n = 2
 
 
 
-
 We can prove that the MergeSort function uses "n(log 2(n) + 1) = 2k (k + 1)" comparisons to sort the input list L by using mathematical induction on k, where k is the number of elements in the input list L.
 
 ### base case
