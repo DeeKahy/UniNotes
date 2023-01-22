@@ -92,7 +92,7 @@ graph LR;
 The given statement is in conjunctive normal form (CNF) which is a conjunction(∧) of one or more clauses (P(x) "∧" ¬Q(x))
 
 
-!!! note
+!!! example
 
     P(x) "∧" ¬Q(x) = CNF
 

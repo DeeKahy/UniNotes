@@ -49,7 +49,7 @@ while (i < j) {
 ```
 
 
-### ~~~Show that in the first iteration of the while loop m = 2^k-1^~~~
+### Show that in the first iteration of the while loop m = 2^k-1^
 
 ```c
 int i = 0;  
@@ -74,8 +74,8 @@ if (x == array[i]) {
     return -1;  
 }
 ```
-
-Because $n=2^k$ which means that $m = n/2$ which we can rewrite to $m = 2^k /2^1$, and then we take one [arithmetic rules](General-math) to get the desired result of $m=2^{k-1}$
+Because i is 0.
+m = (0+2^k^)/2 = 2^k-1^
 
 
 
