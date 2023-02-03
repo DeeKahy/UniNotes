@@ -3,6 +3,10 @@
 - Internet/Network (dns, ips, bluetooth, transfer protocols)
 - Web programming (js, browsers, api)
 
+## Moodle page:
+[https://www.moodle.aau.dk/course/view.php?id=46692#section-1](https://www.moodle.aau.dk/course/view.php?id=46692#section-1
+)
+
 
 ## Basic intro :material-server:
 - Security is an huge ongoing issue.
