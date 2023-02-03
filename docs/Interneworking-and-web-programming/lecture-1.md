@@ -33,6 +33,7 @@ A(Server 1) <--> E(Computer 3)
 - browser = user-agent
 - Client = Front-end
 - Server-side = Back-end
+- localhost ip = 127.0.0.1:%port%
 
 ### Notes
 requests are made using HTTP protocol
