@@ -27,6 +27,31 @@ A(Server 1) <--> E(Computer 3)
 
 ```
 
+### let vs var
+In JavaScript, var and let are used to declare variables, but they have some differences in scope and hoisting:
+
+1. Scope: var variables have function scope, which means they are accessible within the entire function in which they are declared. On the other hand, let and const variables have block scope, which means they are only accessible within the block in which they are declared.
+
+2. Hoisting: Variables declared with var are hoisted to the top of their scope, which means that they are accessible before they are declared in the code. let and const variables are not hoisted, which means that they are only accessible within the block in which they are declared and not before.
+
+Scope example:
+```js
+// Block scope example
+if (true) {
+  let blockScopeVariable = "I am block scoped";
+  console.log(blockScopeVariable); // "I am block scoped"
+}
+console.log(blockScopeVariable); // ReferenceError: blockScopeVariable is not defined
+
+// Function scope example
+function myFunction() {
+  var functionScopeVariable = "I am function scoped";
+  console.log(functionScopeVariable); // "I am function scoped"
+}
+myFunction();
+console.log(functionScopeVariable); // ReferenceError: functionScopeVariable is not defined
+```
+
 
 ## Important Reminders.
 ### Terms
