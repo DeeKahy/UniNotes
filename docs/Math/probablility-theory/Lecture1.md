@@ -6,6 +6,8 @@
 - Zero vecotr vector of multiple 0
 - ones vector vector of multiple 1
 - e~i~ vector 0 with a singular 1 somewhere?
+vector with vectors within is called a list of vectors # could also be a matrix
+
 
 
 ### vectors of the same length can be added to each other making a new vector with added together values.
@@ -78,7 +80,19 @@ print(result)
 ```
 In this example, two vectors vector1 and vector2 are combined linearly using two scalar coefficients coeff1 and coeff2. The result is a new vector result with the same shape as the input vectors, equal to the sum of the scaled input vectors. The linear combination can be written mathematically as result = coeff1 * vector1 + coeff2 * vector2.
 
-vector with vectors within is called a list of vectors # could also be a matrix
 
 
+### we need product thingy written down
 
+we can try to make sense of this in exercises
+
+### same with "differencing" and "sum oand average"
+
+
+### superposition property else known as linear functions
+
+means that you can move fx addition outside of the function and still get the same
+
+a linear function to which you add a constant is called affine.
+affine functions do not cross 0x and 0y but linear does
+affine functions are linear functions offset
