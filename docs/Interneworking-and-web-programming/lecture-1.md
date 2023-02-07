@@ -55,6 +55,7 @@ console.log(functionScopeVariable); // ReferenceError: functionScopeVariable is 
 
 ## Important Reminders.
 ### Terms
+!!! terms
 - browser = user-agent
 - Client = Front-end
 - Server-side = Back-end

@@ -10,7 +10,7 @@ This repository is the home for the source code of the UniNotes website. Anyone 
 1. Fork the repository to your own GitHub account.
 2. Clone the repository to your local machine.
 3. Install the dependencies by running `pip install -r requirements.txt`.
-4. Start the development server by running `mkdocs serve`.
+4. Start the development server by running `mkdocs serve`. (alternatively `python3 -m mkdocs serve`)
 
 ## Contributing
 
