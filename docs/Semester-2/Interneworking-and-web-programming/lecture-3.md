@@ -45,3 +45,16 @@ HTML needs to be sementic
 
     500-599 server error
 
+not in lecture but html math
+```html
+    <p>bmi=
+        <math display="inline">
+            <mfrac>
+                <msup>
+                    <mn>weight</mn>
+                </msup>
+                <mn>height</mn>
+            </mfrac>
+        </math>
+    </p>
+``` 
