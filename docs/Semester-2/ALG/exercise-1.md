@@ -1,3 +1,4 @@
+# Exercise 1
 Solve the following exercises. The exercises that are more involved are marked with a star. If you
 need some guidance for solving the exercise, place your trash bin in front of your group room’s door
 and the first available teaching assistant will come to help you out.

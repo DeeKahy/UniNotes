@@ -1,4 +1,4 @@
-# lecture 3
+# Lecture 3
 
 Divide & conquer
 
