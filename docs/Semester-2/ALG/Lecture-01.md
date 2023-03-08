@@ -1,6 +1,30 @@
-# Exercise Session 01
+# Lecture 01
+*Algorithms, Correctness, and Efficiency [8 February 2023]*
+
+## Lecture 1
+
+!!! terms
+    permutation = reordering
+    
+    input/output sequence = list || array
+
+    n~a~ = number of n times a occurs in the sequence
+
+    T(n) T for time
+
+an algorythm must allways have an input and an output
+!!! definition
+    an algorithm is said to be correct if, for every input instance, it halts with the correct output. we say that a correct algorythm solves the given computational problem.
+
+
+
+
 
 ## Exercise 1
+
+!!! error
+
+    Exercise 4
 
 Solve the following exercises. The exercises that are more involved are marked with a star. If you
 need some guidance for solving the exercise, place your trash bin in front of your group room’s door
@@ -105,14 +129,67 @@ we already did this from the start
 ## Exercise 4.
 [CLRS-3, Problem 1–1] For each function f(n) and time t in the following table, determine the largest size n of a problem that can be solved in time t, assuming that the algorithm to solve the problem takes f(n) microseconds (1 microsecond = 10−6 seconds)
 
+**alg** T(n)=f(n)*10^-6^=1
 
-|         | 1 second | 1 minute |
+
+| f(n)    | 1 second | 1 minute |
 | ------- | -------- | -------- |
-| lg n    |          |          |
+| lg n    | 2^(10^6) |          |
 | sqrt(n) |          |          |
 | n lg n  |          |          |
 | n^2^    |          |          |
 | n^3^    |          |          |
 | 2^n^    |          |          |
 
+!!! error
 
+    we do not know how to solve this
+
+## Exercise 5
+Let A and B be two arrays of numbers sorted in non-decreasing order, respectively of length n and m. Write the pseudocode of an algorithm that checks whether the set of elements in A is equal to the set of elements in B, i.e., all elements of A  re contained in B and vice versa. What is the worst-case running time of your algorithm?
+```py
+def compare(A, B):
+    # is all of A inside of B?
+    for x in A:                # c1 = n+1
+        passed = 0             # c2 = n
+        for i in B:            # c3 = n * m + 1
+            if x < i:          # c4 = n * m
+                passed = 1     # c5 = n 
+                break          # c6 = n 
+
+            # break out of loop if number is higher
+            elif x < i:        # c7 = n * m ~a~
+                break          # c8 = n
+
+        # break out of loop if number is higher
+        if passed != 1:        # n
+            print("Not all of A is contained in B")
+            return             # 1
+    print("all of A is contained in B")
+
+def compare2(A,B):
+    # is all of B inside of A?
+    for x in B:
+        passed = 0
+        for i in A:
+            if x == i:
+                passed = 1
+                break
+            elif x < i:
+                break
+
+        if passed != 1:
+            print("Not all of B is contained in A")
+            return
+    print("all of B is contained in A")
+
+
+B= [1,2,3,4,5]    
+A = [1,2,3,4,5,6,7,8]
+
+compare(A,B)
+compare2(A,B)
+```
+
+
+T(n)=2(c1(n+1) + c2 + c3(n*m+1) + c4(n*m) + c5(n) c6(n) + c7(n*m~a~) + c8(n) + c9(n) + c10)
