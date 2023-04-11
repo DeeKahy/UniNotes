@@ -1,4 +1,4 @@
-# Lecutre 6
+# Lecutre 06
 
 ## Exercise 1
 

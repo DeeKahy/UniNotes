@@ -1,4 +1,4 @@
-# Lecutere 05
+# Lecture 05
 ```py
 l = Left(i)
 r = Right(i)
