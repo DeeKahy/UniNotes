@@ -38,24 +38,24 @@ graph TD
 
 
 ``` mermaid
-graph TB
+graph TD
   A[NodeJS App] --> B[Login System]
-  B --> C[/Dashboard]
+  B --> C["/Dashboard"]
   C --> D[Home]
-  D --> DA[Display Waste Info]
-  D --> DB[Display Expiring Items]
-  D --> DC[Display Possible Recipes]
+  D -.-> DA[Display Waste Info]
+  D -.-> DB[Display Expiring Items]
+  D -.-> DC[Display Possible Recipes]
   C --> E[Item Tracker]
-  E --> EA[Display Inventory]
-  E --> EB[Add Items & Expiry Dates]
+  E -.-> EA[Display Inventory]
+  E -.-> EB[Add Items & Expiry Dates]
   C --> F[Statistics]
-  F --> FA[Display Food Waste]
-  F --> FB[Display CO2 Waste]
+  F -.-> FA[Display Food Waste]
+  F -.-> FB[Display CO2 Waste]
   C --> G[Recipes]
-  G --> GA[Show Recipes Sorted By Available Items]
+  G -.-> GA[Show Recipes Sorted By Available Items]
   C --> H[Shopping List]
-  H --> HA[Create Shopping List]
-  H --> HB[Estimate Price via API]
+  H -.-> HA[Create Shopping List]
+  H -.-> HB[Estimate Price via API]
   C --> I[Settings]
   C --> J[Logout]
 
