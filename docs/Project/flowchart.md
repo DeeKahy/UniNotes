@@ -1,62 +1,83 @@
-``` mermaid
-graph TD
-    A[User] -- Enters login credentials --> B((Login System))
-    B -- Verifies credentials --> C{Authenticated?}
-    C -- No --> E(Error Message)
-    C -- Yes --> Dashboard[User Dashboard]
-    E --> B
-    Dashboard --> S((Suggestions))
+Sure! Here's an example Markdown document that includes math expressions, code blocks, headers, lists, and other formatting elements:
 
-    S --> plist[Display list&price]
-    S --> recipes
-    S --> more[base stats]
+# Markdown Example Document
 
-    Dashboard -.-> Exp[Experation Date Page]
-    Dashboard -.-> Recipes
-    Dashboard -.-> QuickAdd
-    Dashboard -.-> Shopping[Shopping List Page]
+## Introduction
 
-    Shopping --> price[estimated price]
-    Recipes -.-> search[search makable recipes]
-    Recipes --> display
-    search -.-> |if found| missing[make list of missing items]
-    missing --> price
-    Shopping --> list
+This document showcases various Markdown elements, including math expressions and code blocks.
 
-    QuickAdd --> addProduct
+## Math Expressions
 
-    Exp -.-> addProduct[add item]
-    Exp -.-> rem[Remove items]
+You can use LaTeX syntax to write math expressions inline or in block format:
 
-    rem -.-> eaten
-    rem -.-> discarded
+Inline math: $E=mc^2$
 
-    addProduct -.-> barcode[add barcode]
-    addProduct -.-> manual[add manually]
+Block math:
 
+$$
+\int_{0}^{1} x^2 dx = \frac{1}{3}
+$$
+
+## Code Blocks
+
+You can format code using code blocks. Here's an example of Python code:
+
+```python
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
 ```
 
+And here's an example of JavaScript code:
 
-``` mermaid
-graph TD
-  A[NodeJS App] --> B[Login System]
-  B --> C["/Dashboard"]
-  C --> D[Home]
-  D -.-> DA[Display Waste Info]
-  D -.-> DB[Display Expiring Items]
-  D -.-> DC[Display Possible Recipes]
-  C --> E[Item Tracker]
-  E -.-> EA[Display Inventory]
-  E -.-> EB[Add Items & Expiry Dates]
-  C --> F[Statistics]
-  F -.-> FA[Display Food Waste]
-  F -.-> FB[Display CO2 Waste]
-  C --> G[Recipes]
-  G -.-> GA[Show Recipes Sorted By Available Items]
-  C --> H[Shopping List]
-  H -.-> HA[Create Shopping List]
-  H -.-> HB[Estimate Price via API]
-  C --> I[Settings]
-  C --> J[Logout]
-
+```javascript
+function greet(name) {
+    console.log(`Hello, ${name}!`);
+}
 ```
+
+## Lists
+
+You can create ordered and unordered lists:
+
+Unordered list:
+- Item 1
+- Item 2
+- Item 3
+
+Ordered list:
+1. First item
+2. Second item
+3. Third item
+
+## Formatting
+
+You can **bold** text, _italicize_ text, and ~~strike through~~ text.
+
+## Links and Images
+
+You can add links to websites: [OpenAI](https://www.openai.com/)
+
+And embed images: ![Markdown Logo](https://markdown-here.com/img/icon256.png)
+
+## Tables
+
+You can create tables as well:
+
+| Name     | Age | Occupation |
+|----------|-----|------------|
+| Alice    | 28  | Engineer   |
+| Bob      | 35  | Designer   |
+| Charlie  | 22  | Student    |
+
+## Quotes
+
+> "The only limit to our realization of tomorrow will be our doubts of today." - Franklin D. Roosevelt
+
+## Conclusion
+
+Markdown is a versatile markup language that allows you to create well-formatted documents with ease.
+
+For more information, you can refer to the [Markdown Guide](https://www.markdownguide.org/).
