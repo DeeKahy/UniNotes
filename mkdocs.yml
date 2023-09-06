@@ -1,43 +1,55 @@
-site_name: UniNotes
-site_author: DeeKahy & Mantarias
-site_url: "https://uninotes.otterhosting.net"
-repo_url: "https://github.com/DeeKahy/UniNotes"
+# Meta-information about the site
+site_name: UniNotes               # The name of the website
+site_author: DeeKahy & Mantarias  # Authors of the website
+site_url: "https://uninotes.otterhosting.net"  # The website URL
+repo_url: "https://github.com/DeeKahy/UniNotes"  # Repository URL containing the source code
 
+
+
+# Plugins used in the website
 plugins:
-  - mkdocs-jupyter:
-  - search
-
+  - search  # Adds a search function to the website
+# Theme settings
 theme:
-  name: material
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.instant.prefetch
+  name: material          # Name of the theme being used
   palette:
-    scheme: slate
+    scheme: slate         # Color scheme used for the theme
 
+# Markdown Extensions and Configurations
 markdown_extensions:
-  - admonition
-  - attr_list
-  - pymdownx.arithmatex:
+  - admonition            # Adds support for special block quotes (notes, warnings, etc.)
+  - pymdownx.arithmatex:  # Adds MathTex and LaTeX rendering capabilities
       generic: true
-  - pymdownx.emoji:
+  - pymdownx.emoji:       # Emoji support configuration
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
-  - pymdownx.highlight:
+  - pymdownx.highlight:   # Adds syntax highlighting
       anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.inlinehilite # Inline code highlighting
+  - pymdownx.snippets     # Allows including code snippets
+  - pymdownx.superfences  # Advanced fenced code blocks
 
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
-  - pymdownx.superfences:
+  # Various other Markdown extensions
+  - pymdownx.critic       # Adds critic markup support
+  - pymdownx.caret        # Adds caret syntax support
+  - pymdownx.keys         # Adds keyboard key syntax
+  - pymdownx.mark         # Adds support for marking/highlighting text
+  - pymdownx.tilde        # Adds support for striking through text using tilde syntax
+  - pymdownx.superfences: # More fenced code block configurations
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+
+# Extra JavaScript Files
 extra_javascript:
-  - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/mathjax.js                                  # Adds MathJax support for mathematical expressions
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js  # Additional MathJax configurations
+
+
+
