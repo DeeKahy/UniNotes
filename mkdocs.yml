@@ -17,7 +17,19 @@ theme:
     - navigation.instant.prefetch
   name: material          # Name of the theme being used
   palette:
-    scheme: slate         # Color scheme used for the theme
+    # Palette toggle for light mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+
+
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
 
 # Markdown Extensions and Configurations
 markdown_extensions:
