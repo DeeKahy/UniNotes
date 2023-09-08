@@ -1,6 +1,6 @@
 # Lecture 1
 
-!!! exercise
+!!! Question "exercise"
 
     Aalborg Taxi want a new system for administering and monitoring their taxis, drivers, customers and taxi rides. Describe in text the problem domain and application domain of such a system.
 ## application domain
@@ -35,29 +35,31 @@ end
 
   
 ```
-!!! exercise
+!!! Question "exercise"
 
     Are the taxis, drivers, customers and taxi rides in the application domain, the problem domain or both? Why?
 Look above
 
-!!! exercise
+!!! Question "exercise"
 
     Make a system definition for the Taxi System. The system definition must comply with the FACTOR-criterion.
-```
-F = Functionality (The system functions that support the application domain tasks)
 
-A = Application domain (Those parts of an organization that administrate, monitor, or control a problem domain) 
+###FACTOR
+!!! FACTOR
+    F = Functionality (The system functions that support the application domain tasks)
 
-C = Conditions (The conditions under which the system will be developed and used) 
+    A = Application domain (Those parts of an organization that administrate, monitor, or control a problem domain) 
 
-T = Technology (Both the technology used to develop the system and the technology on which the system will run) 
+    C = Conditions (The conditions under which the system will be developed and used) 
 
-O = Objects (The main objects in the problem domain) 
+    T = Technology (Both the technology used to develop the system and the technology on which the system will run) 
 
-R = Responsibility (The system’s overall responsibility in relation to its context) 
+    O = Objects (The main objects in the problem domain) 
 
-These elements describe the most fundamental decisions involved in creating a sound computerized solution. 
-```
+    R = Responsibility (The system’s overall responsibility in relation to its context) 
+
+    These elements describe the most fundamental decisions involved in creating a sound computerized solution. 
+
 
 | Acronym                | Description                                                                                                                                                                                                                       |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -68,7 +70,7 @@ These elements describe the most fundamental decisions involved in creating a so
 | O (Objects)            | The main objects in the problem domain are taxis, drivers, customers, and taxi rides.                                                                                                                                             |
 | R (Responsibility)     | The system’s overall responsibility is to effectively and efficiently manage, track, and monitor the company’s taxis, drivers, customers, and rides.                                                                            |
 
-!!! exercise
+!!! Question "exercise"
 
     Make a radically different system definition for the Taxi System. The system definition must comply with the FACTOR-criterion. Compare with the first one; what are the differences.
 
