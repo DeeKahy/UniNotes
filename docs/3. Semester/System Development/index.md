@@ -43,3 +43,95 @@ Application Domain = the tools we can use to solve the problem
 
         gardener 
 
+Object 
+And entity with state identity and behavior
+
+Class
+A collection describing objects with common behavior and attributes
+
+Teacher:
+vare betalt
+vare genopfyldt
+vare fundet
+medarbejder mødtind
+medarbejder tagethjem
+
+
+Hair Salon
+
+{== Classes
+    
+    Salon
+    
+    customer
+    
+    location
+    
+    Haircut
+
+    worker
+
+==}
+
+{== Events
+    
+    timeReserved
+    
+    paid
+    
+    arrived
+    
+    gotHaircut
+    
+    gotHairWashed
+==}
+
+```mermaid
+classDiagram
+    Salon <|-- Employee
+    Salon <|-- Service
+    Salon <|-- Appointment
+    class Salon{
+        String name
+        String location
+        Employee[] employees
+        Service[] services
+        Appointment[] appointments
+        HireEmplyee()
+        FireEmplyee()
+    }
+    class Employee{
+        String id
+        String name
+        String position
+        scheduleAppointment()
+        quitJob()
+    }
+    class Customer{
+        String id
+        String name
+        String phone
+        String email
+        makeAppointment()
+        cancelAppointment()
+        paid()
+        didntArrive()
+    }
+    class Service{
+        String name
+        Number price
+        String duration
+    }
+    class Appointment{
+        String id
+        Date dateTime
+        Customer customer
+        Employee employee
+        Service service
+        makeAppointment()
+        cancelAppointment()
+    }
+
+    Customer  --  Appointment : books
+```
+
