@@ -73,7 +73,7 @@ Hair Salon
 
 ==}
 
-{== Events
+{== Events instantaneous incident involving one or more objects not a method needs to be instantly registered by the system.
     
     timeReserved
     
@@ -134,4 +134,24 @@ classDiagram
 
     Customer  --  Appointment : books
 ```
+
+![Alt text](image-1.png)
+
+customer is a subclass of person and so is employee superclass is written with cursive also known as generalization
+
+![Alt text](image-2.png)
+
+‘has ‐a’ or ‘owns ‐a’ relation (more common)
+
+example 1 car has 4 wheels or more 
+
+number ..* means the amount before the number as minimum and more cause dot dot star
+
+cant be changed
+
+![Alt text](image-3.png)
+
+loose non-defining relation example 1 or more persons can have 0 or more cars
+
+can be changed
 

@@ -19,6 +19,8 @@ We chose Kaj’s Cars
 
 # Car Rental
 
+We have heavily expanded this chart since lecture 1.
+
 ```mermaid
 classDiagram
 
