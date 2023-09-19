@@ -20,16 +20,14 @@ theme:
     # Palette toggle for light mode
     - scheme: slate
       toggle:
-        icon: material/weather-night
-
-
-        name: Switch to dark mode
+        icon: material/weather-sunny
+        name: Switch to light mode
 
     # Palette toggle for dark mode
     - scheme: default
       toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
+        icon: material/weather-night
+        name: Switch to dark mode
 
 # Markdown Extensions and Configurations
 markdown_extensions:

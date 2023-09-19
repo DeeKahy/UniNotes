@@ -155,3 +155,10 @@ loose non-defining relation example 1 or more persons can have 0 or more cars
 
 can be changed
 
+![Alt text](image-4.png)
+
+control structure of behavior 
+
+![Alt text](image-5.png)
+
+\+ means 0 or once * means it can happen many times
