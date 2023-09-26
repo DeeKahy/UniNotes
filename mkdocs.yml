@@ -55,6 +55,7 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - tables
 # Extra JavaScript Files
 extra_javascript:
   - javascripts/mathjax.js                                  # Adds MathJax support for mathematical expressions

@@ -163,3 +163,13 @@ control structure of behavior
 
 \+ means 0 or once * means it can happen many times
 
+```mermaid
+classDiagram
+    Class01 <|-- Class02 : Inheritance
+    Class03 --|> Class04 : Inheritance
+    Class05 --> Class06 : Association
+    Class07 --* Class08 : Aggregation
+    Class09 --o Class10 : Composition
+    Class11 ..> Class12 : Dependency
+    Class13 -- Class14 : Association (undirected)
+```
