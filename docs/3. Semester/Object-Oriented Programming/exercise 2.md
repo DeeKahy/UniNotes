@@ -1,0 +1,22 @@
+# Exercises 2
+| #   | Question                                                                                                                                                                                                                | #   |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| 7   | Consider the following two variable declarations: `byte small = 10; int big = 99;` how will you assign the value in the big variable to the small variable?                                                             |     |
+| 8   | Why do you need to use a cast when you assign a variable of a bigger size to a variable of smaller size, for example, assigning an int variable to a byte variable?                                                     |     |
+| 9   | Name two primitive data types in Java whose values can be floating-point numbers.                                                                                                                                       |     |
+| 10  | If you declare a variable of the boolean type, what are the two possible values it can have?                                                                                                                            |     |
+| 11  | Can you cast a boolean value to an int type, as shown in the following statement? `boolean done = true; int x = (int) done;` What happens when you compile this snippet of code?                                        |     |
+| 12  | Are the boolean literals true and false the same as integers 1 and 0?                                                                                                                                                   |     |
+| 13  | Name an unsigned numeric data type in Java.                                                                                                                                                                             |     |
+| 14  | Name the four different formats of writing the literals of char data types. Give two examples of each.                                                                                                                  |     |
+| 15  | How do you represent a backslash (\\) and a double quote (") as char literals in Java? Write code to declare two char variables named c1 and c2. Assign a backslash character to c1 and a double quote character to c2. |     |
+| 16  | What are 1’s and 2’s complements of binary numbers? Compute the 1’s and 2’s complements of the binary number 10111011.                                                                                                  |     |
+| 17  | Why does the following line of comment in a Java program not compile? `\u000A` is a Unicode code value for line feed: `char c = '\u000A';`                                                                              |     |
+| 18  | How many zeros are supported by float and double data types?                                                                                                                                                            |     |
+| 19  | What is NaN? How many NaNs are supported by float and double types in Java? Differentiate between a quiet NaN and a signaling NaN. What types of NaNs are supported by Java—quiet NaNs, signaling NaNs, or both?        |     |
+| 20  | What are denormals or denormalized floating-point numbers?                                                                                                                                                              |     |
+| 21  | What are the different rounding modes for floating-point numbers? What rounding modes are supported by Java?                                                                                                            |     |
+| 22  | What are little-endian order and big-endian order? What endian order does Java use to encode the multi-byte binary data in class files?                                                                                 |     |
+
+What is an identifier in Java? What can an identifier consist of? List five valid and
+five invalid identifiers in Java.
