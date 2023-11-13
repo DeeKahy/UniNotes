@@ -1,0 +1,10 @@
+
+## Instructions.
+* During the self-studies you will work on a mini-project. This work can be done individually or in groups. However, it is recommended to work in groups but making sure that everyone understands the solutions.
+* In this self-study, you will get familiar with the mini-project domain and some relevant activities within this domain that your solution should provide support for.
+* Your solution to this self-study can be submitted via Moodle:https://www.moodle.aau.dk/mod/assign/view.php?id=1617453. Submissions must be done by October 13th at 11:59am.
+* Your submission should include: (i) a ZIP file with the source code (.java files) and instructions on how to compile and run your program (without using an IDE). (ii) a text document (as a PDF file) that explains how your code provides solutions for each of the tasks in this self-study. The text must relate specific fragments of code to specific tasks and provide clear and concise answers to any explicit request stated as part of the task description. This PDF file must contain at most 19000 characters. 
+*  After submitting your solution, you can reserve a feedback session via Moodle: https://www.moodle.aau.dk/mod/scheduler/view.php?id=1617461. Please reserve the feedback session in advance (at least two working days before it takes place). If you worked in a group, please have one student book the feedback session on behalf of the group. Feedback sessions typically last 15 minutes and take place in the group rooms.
+*  This mini-project domain is described on page 2 and the tasks that you have to complete are described on page 3.
+*  As part of your solution to this self-study you must write a program in Java that follows the principles of the object-oriented programming paradigm.
+*  You can ask for clarifications about this sef-study via email (gmontoya@cs.aau.dk) or Teams (team code: yhjm1d5). However, please be aware that some of the tasks can be solved in several ways and that you have certain freedom, e.g., you can make appropriate assumptions if you find that some aspects allow for multiple interpretations. Please summarize your assumptions and relevant choices.
