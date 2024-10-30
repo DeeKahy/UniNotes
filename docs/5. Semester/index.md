@@ -25,7 +25,7 @@ Just go to the root of your moodle repository and run `nix-shell` and it will au
 
 ## Troubleshooting
 - If you are having issues make sure to read the FAQ below.
-- If the FAQ didnt help then messag Diego on discord.
+- If the FAQ didnt help then message Diego or mantarias on discord.
 
 
 ## FAQ
@@ -36,7 +36,7 @@ Just go to the root of your moodle repository and run `nix-shell` and it will au
 - How do i run CodeSniffer? Run `sniffit`. This will run the codesniffer for you.
 - How do i run CodeSniffer so it automatically fixes errors for me? Make sure to run sniffit first, and then run `fixit`. This will run the codesniffer fixer for you. Keep in mind this can only fix some errors.
 - How do i reset the database? Exit nix-shell by writing `exit`, then delete the mariadb_data folder and run `nix-shell` again.
-
+- I cant open adminer (localhost:8080) what do i do? It is likely that you already have mariadb running on this port, so you need to make sure it is disabled, and then re-run `nix-shell`
 ### WSL2
 - My performance is bad how do i fix it? Make sure you have WSL2 set up properly, and that you are running the moodle repository from within a WSL folder. (see windows special instructions above)
 
