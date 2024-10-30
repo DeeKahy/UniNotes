@@ -11,8 +11,8 @@ If you have WSL2 set up properly, you should now clone the moodle repository or 
 ```bash
 cd ~
 git clone (your fork of moodle)
-ls (to see folder names)
-cd (your folder name)
+ls 
+cd (the folder name you see above)
 ```
 
 ## Installing Nix
