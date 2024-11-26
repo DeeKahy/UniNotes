@@ -38,6 +38,7 @@ Just go to the root of your moodle repository and run `nix-shell` and it will au
 - How do i run CodeSniffer so it automatically fixes errors for me? Make sure to run sniffit first, and then run `fixit`. This will run the codesniffer fixer for you. Keep in mind this can only fix some errors.
 - How do i reset the database? Exit nix-shell by writing `exit`, then delete the mariadb_data folder and run `nix-shell` again.
 - I cant open adminer (localhost:8080) what do i do? It is likely that you already have mariadb running on this port, so you need to make sure it is disabled, and then re-run `nix-shell`
+- How do i use grunt? Make sure you have a working config.php file (make sure phpunit and codesniffer can properly run). Then you can run `gruntit`, This will install, configure, and run grunt on our project to minify the javascript files.
 ### WSL2
 - My performance is bad how do i fix it? Make sure you have WSL2 set up properly, and that you are running the moodle repository from within a WSL folder. (see windows special instructions above)
 
