@@ -1,2 +1,5 @@
+providers = ["..."]
+
 [phases.build]
+dependsOn = ["..."]
 cmd = "mkdocs build"
