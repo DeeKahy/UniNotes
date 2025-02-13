@@ -1,2 +1,2 @@
-[build]
+[phases.build]
 cmd = "mkdocs build"
