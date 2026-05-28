@@ -1,12 +1,45 @@
 # Complete Guide to Using nix-shell
 
 ## Windows special instructions - linux and macos should skip this section.
+### Installing WSL
 if you dont have WSL2, or are unsure if you have WSL2, it is a good idea to follow this official microsoft guide to set it up: https://learn.microsoft.com/en-us/windows/wsl/install
+
+Installing WSL is as simple as running the following command in your windows terminal:
+```bash
+wsl --install
+```
+
+After installing WSL, you need to install your preferred distro. (If in doubt, go with Debian)
+Debian installation:
+```bash
+wsl --install -d Debian
+```
+
+For other distro preferences, you can list the distros:
+```bash
+wsl --list --online
+```
+
+And install your preferred distro:
+```bash
+wsl --install -d <Distribution Name>
+```
 
 After that is done you can run `sudo apt install neofetch` and then run `neofetch` to see if you have WSL2 installed and set up properly.
 
 We are now assuming you have entered a WSL2 terminal.
-If you have WSL2 set up properly, you should now clone the moodle repository or your own fork of it inside of a wsl folder. (this is because leaving it inside of a windows folder has serious performance issues.)
+
+## Git setup
+In order to clone the moodle repository, you need to have git set up.
+
+### Install GH (recommended)
+```bash
+sudo snap install gh
+```
+
+Go through the installation process (Web is recommended for logging in)
+
+If you have WSL2 and GIT set up properly, you should now clone the moodle repository or your own fork of it inside of a wsl folder. (this is because leaving it inside of a windows folder has serious performance issues.)
 
 ```bash
 cd ~
@@ -23,6 +56,27 @@ To properly install nix you need to go to this website https://nixos.org/downloa
 - How to use nix-shell
 Just go to the root of your moodle repository and run `nix-shell` and it will automatically set up the environment + the database for you.
 
+
+## Nix scripts:
+```bash
+create_config
+```
+Creates the config.php file automatically
+
+```bash
+runit
+```
+Runs the PHPunit tests
+
+```bash
+sniffit
+```
+Runs codesniffer
+
+```bash
+fixit
+```
+Automatically fixes codesniffer errors
 
 ## Troubleshooting
 - If you are having issues make sure to read the FAQ below.
